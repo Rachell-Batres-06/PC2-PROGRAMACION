@@ -1273,3 +1273,56 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+/* cuadros y su diseño*/
+#informacion .card {
+  border-radius: 20px;
+  border-color: #151f2b;
+  background-color: #0b97cb;
+}
+
+#educacion .card {
+  border-radius: 20px;
+  border-color: #151f2b;
+  background-color: #0b97cb;
+}
+
+#pasatiempos .card {
+  border-radius: 20px;
+  border-color: #151f2b;
+  background-color: #0b97cb; 
+}
+
+#musica .card {
+  border-radius: 20px;
+  border-color: #151f2b;
+  background-color: #0b97cb; 
+}
+
+/* Centrando el contenido dentro de cada tarjeta */
+.card h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.card p, .card ul {
+  color: #fff;
+  font-size: 16px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+/* Ajuste del espaciado entre tarjetas */
+.row {
+  margin-bottom: -100px; /* Reduce el espacio entre filas */
+}
+
+.col-md-5 {
+  margin-bottom: 10px; /* Reduce el margen inferior de cada columna */
+}
